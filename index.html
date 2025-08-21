@@ -1,0 +1,1885 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta setup -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="keywords" content="">
+        <meta name="decription" content="">
+        <title>Kitchat Landing</title>
+       <style>
+        
+            
+             @-ms-viewport {
+                width: device-width;
+            }
+
+            @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+            :root {
+                --nunito: "Nunito", sans-serif;
+                --Constantia: "Constantia";
+            }
+
+            html {
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                -ms-overflow-style: scrollbar;
+                scroll-behavior: smooth;
+            }
+
+            *,
+            *::before,
+            *::after {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            h1,
+            h2,
+            h3,
+            h5,
+            h6,
+            p {
+                margin: 0;
+            }
+
+            a,
+            a:hover {
+                text-decoration: none;
+                display: inline-block;
+            }
+
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            img {
+                width: 100%;
+            }
+
+            body {
+                font-family: "Nunito Sans", sans-serif;
+                font-size: 30px;
+                font-weight: 400;
+                background: #FFF;
+                color: #212121;
+                margin: 0;
+                padding: 0;
+            }
+
+            .text-center {
+                text-align: center;
+            }
+
+            .font-italic {
+                font-style: italic;
+            }
+
+            .text-underline {
+                text-decoration: underline;
+            }
+
+            .container {
+                max-width: 1170px;
+                margin-inline: auto;
+            }
+
+            /*========= header area start hare ====== */
+
+            .header-area {
+                padding: 50px 0;
+                background: #0386C0;
+            }
+
+            .header-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+
+            .header-wrapper h2 {
+                color: #FFF;
+                text-align: center;
+                text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+                font-size: 70px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+
+            /*======= header area end hare ======= */
+
+            /*==== kids talk area style start hare ==== */
+
+            .kids-talk-area {
+                padding: 50px 30px;
+                background: #F0F0F0;
+            }
+
+            .kids-talk-wrapper {
+                padding: 30px 90px;
+                border-radius: 50px;
+                background: #FFF;
+                box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 50px;
+            }
+
+            .kids-talk-wrapper h4 {
+                color: #0386C0;
+                text-align: center;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 100%;
+                max-width: 655px;
+                margin-inline: auto;
+            }
+
+            .kids-block p {
+                text-align: center;
+                font-style: italic;
+                line-height: 136.667%;
+            }
+
+            .kids-talk-wrapper p {
+                max-width: 837px;
+                line-height: 136.667%;
+            }
+
+            /*========== kids talk area end hare ========= */
+
+            /*====== kidschat card area style start hare ========= */
+
+            .kidschat-card-area {
+                padding: 50px 0;
+                position: relative;
+                z-index: 2;
+                overflow: hidden;
+            }
+
+            .kidschat-card-area::before {
+                content: '';
+                display: block;
+                width: 60%;
+                height: 532px;
+                border-radius: 1045px;
+                background: #0386C0;
+                position: absolute;
+                right: -91px;
+                top: 20%;
+                z-index: -1;
+            }
+
+            .kidschat-card-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+            }
+
+            .kidschat-card-wrapper h2 {
+                color: #0386C0;
+                text-align: center;
+                text-shadow: 0 4px 4px rgba(0, 0, 0, 0.17);
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 115%;
+                max-width: 900px;
+            }
+
+            .kidschat-card-wrapper p {
+                line-height: 136.667%;
+                text-align: center;
+                max-width: 954px;
+            }
+
+            .kidschat-card-wrapper p a {
+                color: #000;
+                text-decoration: underline;
+            }
+
+            /*============== kidschat card area end hare =========== */
+
+            /*============== what kidschat area start hare ========= */
+
+            .what-kidschat-area {
+                padding-top: 22px;
+                padding-bottom: 26px;
+                background: #F0F0F0;
+                padding-inline: 30px;
+            }
+
+            .title-text {
+                color: #0386C0;
+                text-align: center;
+                text-shadow: 0 4px 4px rgba(0, 0, 0, 0.17);
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+
+            .what-kidschat-block {
+                display: flex;
+                align-items: center;
+                max-width: 1110px;
+                margin-inline: auto;
+            }
+
+            .what-kidschat-content {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .waht-kidschat-images {
+                flex: 1;
+            }
+
+            .what-kidscaht-wrapper {
+                display: flex;
+                flex-direction: column;
+                gap: 39px;
+            }
+
+            .what-kidschat-list {
+                max-width: 1110px;
+                margin-inline: auto;
+                width: 100%;
+                padding-top: 10px;
+            }
+
+            .waht-kidschat-images-bottom {
+                display: none;
+            }
+
+            /*========== what kidschat area style end hare ========== */
+
+            /*========== real skills area style start hare =========== */
+
+            .real-skills-area {
+                padding: 31px 30px;
+                background: url(images/Gray-Pattern.png) lightgray 50% / cover no-repeat;
+                backdrop-filter: blur(3.5px);
+            }
+
+            .real-skills-wrapper {
+                border-radius: 50px;
+                opacity: 0.9;
+                background: #FFF;
+                box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+                padding: 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                align-items: center;
+            }
+
+            .real-skills-wrapper h2 {
+                color: #1B1B1B;
+                text-align: center;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 100%;
+            }
+
+            .real-skills-wrapper p {
+                color: #000;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 103.333%;
+                max-width: 869px;
+                width: 100%;
+                margin-inline: auto;
+            }
+
+            .real-skills-wrapper ul {
+                max-width: 869px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                width: 100%;
+            }
+
+            /*=========== real skills area end hare =========== */
+
+            /*=========== theme area style start hare =========== */
+
+            .theme-area {
+                padding: 50px 30px;
+                background: #F0F0F0;
+            }
+
+            .theme-card-list {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+            }
+
+            .theme-wrapper {
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            }
+
+            .theme-wrapper h2 {
+                color: #1C1C1C;
+                text-align: center;
+                text-shadow: 0 4px 4px rgba(0, 0, 0, 0.17);
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+
+            .theme-inner-wp {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+            }
+
+            .theme-feautes-list {
+                width: 100%;
+                max-width: 796px;
+                padding: 20px;
+                border-radius: 30px;
+                background: #0386C0;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .theme-feautes-list li {
+                font-size: 26px;
+                color: #fff;
+                line-height: 153.846%;
+            }
+
+            .theme-benefit {
+                display: flex;
+                flex-direction: column;
+            }
+
+            /*============= theme area end hare ========== */
+
+            /*======== real perents area style start hare ======== */
+
+            .real-perents-area {
+                padding: 35px 30px;
+                background: #0386C0;
+            }
+
+            .real-perents-wrapper h4 {
+                color: #FFF;
+                text-align: center;
+                text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+                font-size: 70px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+
+            .real-perents-wrapper h2 {
+                color: #FFF;
+                text-align: center;
+                text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+                font-size: 96px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+
+            .perents-inner-card {
+                display: flex;
+                flex-direction: column;
+                gap: 110px;
+                max-width: 1056px;
+                margin-inline: auto;
+                padding-top: 64px;
+            }
+
+            .perent-rating ul {
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                padding-inline: 40px;
+            }
+
+            .single-perent-say {
+                display: flex;
+                flex-direction: column;
+                border-radius: 20px;
+                background: #E44F58;
+                box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+                padding-block: 38px;
+                gap: 24px;
+            }
+
+            .perent-review-box {
+                display: flex;
+                align-items: center;
+                padding-inline: 40px;
+            }
+
+            .perent-profile img {
+                width: 142px;
+                height: 142px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+            .prent-review-text {
+                display: flex;
+                flex-direction: column;
+                padding-inline: 30px;
+                flex: 1;
+                gap: 15px;
+            }
+
+            .prent-review-text p {
+                color: #FFF;
+                font-family: var(--nunito);
+                font-size: 38px;
+                font-style: italic;
+                font-weight: 700;
+                line-height: 119%;
+            }
+
+            .prent-review-text h5 {
+                color: #FFF;
+                font-family: var(--nunito);
+                font-size: 38px;
+                font-style: italic;
+                font-weight: 900;
+                line-height: 119%;
+            }
+
+            .single-perent-say {
+                position: relative;
+            }
+
+            .single-perent-say::before {
+                content: '';
+                width: 90px;
+                height: 90px;
+                clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+                display: block;
+                position: absolute;
+                left: 70px;
+                top: -60px;
+                background: #E44F58;
+            }
+
+            .single-perent-say.perent-card-two {
+                background: #FA960A;
+            }
+
+            .single-perent-say.perent-card-two::before {
+                background: #FA960A;
+            }
+
+            .single-perent-say.perent-card-three {
+                background: #B9B9B9;
+            }
+
+            .single-perent-say.perent-card-three::before {
+                background: #B9B9B9;
+            }
+
+            /*============ real perent area style end hare =========== */
+
+            /*============= why now area style start hare =========== */
+
+            .why-now-area {
+                padding: 50px 30px;
+                background: #F0F0F0;
+            }
+
+            .why-now-wrapper {
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            }
+
+            .why-now-wrapper h2 {
+                color: #1C1C1C;
+                text-align: center;
+                text-shadow: 0 4px 4px rgba(0, 0, 0, 0.17);
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+
+            .why-now-inner {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .why-now-wrapper ul {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .our-promise-card {
+                border-radius: 50px;
+                background: #FFF;
+                box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+                text-align: center;
+            }
+
+            .our-promise-card p {
+                max-width: 1023px;
+            }
+
+            .our-promise-card h2 {
+                color: #0386C0;
+            }
+
+            /*========== real perent area style end hare ======== */
+
+            /*=========== recap area style start hare =========== */
+
+            .recap-area {
+                padding: 50px 30px;
+                background: #0386C0;
+            }
+
+            .recap-wrapper {
+                max-width: 1050px;
+                margin-inline: auto;
+                padding: 50px 60px;
+                border-radius: 50px;
+                background: #FFF;
+                box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+                display: flex;
+                flex-direction: column;
+                gap: 33px;
+            }
+
+            .recap-wrapper h2 {
+                color: #212121;
+                text-align: center;
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 83.333%;
+            }
+
+            .join-today {
+                padding-top: 32px;
+            }
+
+            .join-today h2 span {
+                color: #0386C0;
+            }
+
+            .card-action-btns button {
+                border-radius: 50px;
+                background: #818181;
+                box-shadow: 4px 7px 0 0 #4B4B4B;
+                padding: 10px;
+                color: #FFF;
+                text-align: center;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+                width: 100%;
+                cursor: pointer;
+            }
+
+            .distraction-card {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .distraction-card .card-title {
+                padding: 10px;
+                background: #818181;
+            }
+
+            .card-title h4 {
+                text-align: center;
+                color: #FFF;
+                text-align: center;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+
+            .distraction-content {
+                display: flex;
+                flex-direction: column;
+                gap: 45px;
+                border: 2px dashed #A1A1A1;
+                padding: 20px;
+                text-align: center;
+                flex: 1;
+                justify-content: space-between;
+            }
+
+            .distraction-content img {
+                max-width: 348px;
+            }
+
+            .join-inner-card {
+                display: flex;
+                gap: 50px;
+                max-width: 810px;
+                margin-inline: auto;
+            }
+
+            .connection-card .card-title {
+                padding: 10px;
+                background: #00C660;
+            }
+
+            .connection-card .card-action-btns button {
+                background: #00C660;
+                box-shadow: 4px 7px 0 0 rgba(2, 98, 48, 0.84);
+            }
+
+            /* footer area start hare  */
+
+            .footer-area {
+                padding: 35px 0;
+                background: #1A1A1B;
+                text-align: center;
+            }
+
+            .footer-nav {
+                padding: 35px 0;
+            }
+
+            .footer-nav ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 35px;
+            }
+
+            .footer-nav ul li a {
+                color: #FFF;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                transition: 0.3s;
+            }
+
+            .footer-nav ul li a:hover {
+                color: #FF700B;
+            }
+
+            .copyright-text p {
+                color: #818181;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .theme-benefit li {
+                line-height: 193%;
+            }
+            .recap-wrapper ul li {
+                line-height: 200%;
+            }
+            .recap-wrapper p {
+                line-height: 140%;
+            }            
+
+            /*========== responsive mode  =============*/
+
+            /* Xtra Large Screen - Others  */
+
+            @media screen and (min-width: 1400px) {
+                .container {
+                    max-width: 1230px;
+                }
+            }
+
+            /* Large Screen - Others */
+
+            @media screen and (min-width: 1200px) and (max-width: 1399px) {
+                .container {
+                    max-width: 1170px;
+                }
+                .header-wrapper h2 {
+                    font-size: 60px;
+                }
+                /* kidschat card area  */
+                .kidschat-card-wrapper h2 {
+                    font-size: 50px;
+                }
+                .title-text {
+                    font-size: 50px;
+                }
+                .theme-wrapper h2 {
+                    font-size: 50px;
+                }
+                /* real perent area  */
+                .real-perents-wrapper h4 {
+                    font-size: 60px;
+                }
+                .real-perents-wrapper h2 {
+                    font-size: 75px;
+                }
+                .prent-review-text p {
+                    font-size: 35px;
+                }
+                .prent-review-text h5 {
+                    font-size: 35px;
+                }
+                /* why now area  */
+                .why-now-wrapper h2 {
+                    font-size: 50px;
+                }
+                .recap-wrapper h2 {
+                    font-size: 50px;
+                }
+            }
+
+            /* Medium Screen - Others  */
+
+            @media screen and (min-width: 992px) and (max-width: 1199px) {
+                body {
+                    font-size: 28px;
+                }
+                .container {
+                    max-width: 960px;
+                }
+                .header-wrapper h2 {
+                    font-size: 45px;
+                }
+                .header-logo img {
+                    max-width: 200px;
+                }
+                .kids-talk-wrapper h4 {
+                    font-size: 42px;
+                }
+                .kids-talk-wrapper {
+                    gap: 40px;
+                }
+                /* kidschat card area  */
+                .kidschat-card-wrapper h2 {
+                    font-size: 45px;
+                    max-width: 800px;
+                }
+                .kidschat-card-area::before {
+                    width: 70%;
+                    height: 410px;
+                    right: -91px;
+                    top: 25%;
+                }
+                .kidschat-card-wrapper p {
+                    max-width: 800px;
+                }
+                .title-text {
+                    font-size: 45px;
+                }
+                /* real skilss area  */
+                .real-skills-wrapper h2 {
+                    font-size: 42px;
+                }
+                .real-skills-wrapper {
+                    gap: 40px;
+                }
+                .theme-wrapper h2 {
+                    font-size: 42px;
+                }
+                .theme-wrapper {
+                    gap: 40px;
+                }
+                /* real perent area  */
+                .real-perents-wrapper h4 {
+                    font-size: 50px;
+                }
+                .real-perents-wrapper h2 {
+                    font-size: 65px;
+                }
+                .prent-review-text p {
+                    font-size: 32px;
+                }
+                .prent-review-text h5 {
+                    font-size: 30px;
+                }
+                .perents-inner-card {
+                    gap: 80px;
+                }
+                /* why now area  */
+                .why-now-wrapper h2 {
+                    font-size: 42px;
+                }
+                .why-now-wrapper {
+                    gap: 40px;
+                }
+                .recap-wrapper h2 {
+                    font-size: 42px;
+                }
+                .card-title h4 {
+                    font-size: 32px;
+                }
+            }
+
+            /* Small Screen - Tablate */
+
+            @media screen and (min-width: 768px) and (max-width: 991px) {
+                body {
+                    font-size: 26px;
+                }
+                .container {
+                    max-width: 740px;
+                }
+                .header-wrapper h2 {
+                    font-size: 35px;
+                }
+                .header-logo img {
+                    max-width: 160px;
+                }
+                .kids-talk-area {
+                    padding: 40px 30px;
+                }
+                .kids-talk-wrapper h4 {
+                    font-size: 38px;
+                }
+                .kids-talk-wrapper {
+                    gap: 30px;
+                    padding: 30px 50px;
+                }
+                .header-area {
+                    padding: 30px 0;
+                }
+                /* kidschat card area  */
+                .kidschat-card-wrapper h2 {
+                    font-size: 38px;
+                    max-width: 650px;
+                }
+                .kidschat-card-area::before {
+                    width: 70%;
+                    height: 410px;
+                    right: -91px;
+                    top: 25%;
+                }
+                .kidschat-card-wrapper p {
+                    max-width: 650px;
+                }
+                .kidschat-card-wrapper {
+                    gap: 25px;
+                }
+                .title-text {
+                    font-size: 38px;
+                }
+                /* what kidscard area  */
+                .what-kidschat-list {
+                    padding: 0;
+                }
+                .what-kidscaht-wrapper {
+                    gap: 30px;
+                }
+                /* real skilss area  */
+                .real-skills-wrapper h2 {
+                    font-size: 35px;
+                }
+                .real-skills-wrapper {
+                    gap: 30px;
+                }
+                /* theme area  */
+                .theme-area {
+                    padding: 35px 30px;
+                }
+                .theme-wrapper h2 {
+                    font-size: 35px;
+                }
+                .theme-wrapper {
+                    gap: 25px;
+                }
+                .theme-card-list {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+                .theme-feautes-list li {
+                    font-size: 20px;
+                }
+                .theme-inner-wp {
+                    gap: 20px;
+                }
+                /* real perent area  */
+                .real-perents-wrapper h4 {
+                    font-size: 40px;
+                }
+                .real-perents-wrapper h2 {
+                    font-size: 50px;
+                }
+                .prent-review-text p {
+                    font-size: 25px;
+                }
+                .prent-review-text h5 {
+                    font-size: 25px;
+                }
+                .perents-inner-card {
+                    gap: 80px;
+                }
+                .single-perent-say {
+                    padding-block: 25px;
+                }
+                .perent-profile img {
+                    width: 120px;
+                    height: 120px;
+                }
+                /* why now area  */
+                .why-now-wrapper h2 {
+                    font-size: 38px;
+                }
+                .why-now-wrapper {
+                    gap: 30px;
+                }
+                .why-now-area {
+                    padding: 40px 30px;
+                }
+                .recap-wrapper h2 {
+                    font-size: 38px;
+                }
+                .card-title h4 {
+                    font-size: 25px;
+                }
+                .recap-wrapper {
+                    padding: 40px;
+                }
+                .join-today {
+                    padding-top: 25px;
+                }
+                .join-inner-card {
+                    gap: 40px;
+                }
+                .card-action-btns button {
+                    font-size: 20px;
+                }
+            }
+
+            /* Small Screen - Small Mobile  */
+
+            @media screen and (max-width: 767px) {
+                body {
+                    font-size: 25px;
+                }
+                .container {
+                    max-width: 540px;
+                }
+                .header-wrapper h2 {
+                    font-size: 28px;
+                }
+                .header-logo img {
+                    max-width: 170px;
+                }
+                .kids-talk-area {
+                    padding: 30px 25px;
+                }
+                .kids-talk-wrapper h4 {
+                    font-size: 32px;
+                    max-width: 400px;
+                }
+                .kids-talk-wrapper {
+                    gap: 25px;
+                    padding: 30px 40px;
+                }
+                .header-area {
+                    padding: 30px 0;
+                }
+                /* kidschat card area  */
+                .kidschat-card-wrapper h2 {
+                    font-size: 32px;
+                    max-width: 650px;
+                }
+                .kidschat-card-area::before {
+                    width: 70%;
+                    height: 250px;
+                    right: -91px;
+                    top: 25%;
+                }
+                .kidschat-card-wrapper p {
+                    max-width: 650px;
+                }
+                .kidschat-card-wrapper {
+                    gap: 25px;
+                }
+                .kidchat-img {
+                    max-height: 245px;
+                }
+                .title-text {
+                    font-size: 32px;
+                }
+                /* what kidscard area  */
+                .what-kidschat-list {
+                    padding: 0;
+                }
+                .what-kidscaht-wrapper {
+                    gap: 30px;
+                }
+                .waht-kidschat-images {
+                    display: none;
+                }
+                .waht-kidschat-images-bottom {
+                    display: block;
+                }
+                /* real skilss area  */
+                .real-skills-area {
+                    padding: 25px 20px;
+                }
+                .real-skills-wrapper h2 {
+                    font-size: 28px;
+                }
+                .real-skills-wrapper {
+                    gap: 30px;
+                }
+                /* theme area  */
+                .theme-area {
+                    padding: 30px 30px;
+                }
+                .theme-wrapper h2 {
+                    font-size: 32px;
+                }
+                .theme-wrapper {
+                    gap: 30px;
+                }
+                .theme-card-list {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+                .theme-feautes-list li {
+                    font-size: 18px;
+                }
+                .theme-inner-wp {
+                    gap: 20px;
+                }
+                /* real perent area  */
+                .real-perents-wrapper h4 {
+                    font-size: 28px;
+                }
+                .real-perents-wrapper h2 {
+                    font-size: 35px;
+                }
+                .prent-review-text p {
+                    font-size: 22px;
+                }
+                .prent-review-text h5 {
+                    font-size: 22px;
+                }
+                .perents-inner-card {
+                    gap: 80px;
+                }
+                .single-perent-say {
+                    padding-block: 25px;
+                }
+                .perent-profile img {
+                    width: 120px;
+                    height: 120px;
+                }
+                .perent-review-box {
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 30px;
+                }
+                .perent-rating ul {
+                    justify-content: center;
+                }
+                .prent-review-text {
+                    gap: 20px;
+                    padding: 0;
+                }
+                /* why now area  */
+                .why-now-wrapper h2 {
+                    font-size: 28px;
+                }
+                .why-now-wrapper {
+                    gap: 25px;
+                }
+                .why-now-area {
+                    padding: 30px 25px;
+                }
+                .our-promise-card {
+                    text-align: left;
+                    padding: 25px 30px;
+                }
+                .our-promise-card p {
+                    width: 100%;
+                }
+                .our-promise-card h2 {
+                    text-align: left !important;
+                    width: 100%;
+                }
+                /* why now area  */
+                .recap-area {
+                    padding: 25px 30px;
+                }
+                .why-now-wrapper h2 {
+                    font-size: 35px;
+                }
+                .why-now-wrapper {
+                    gap: 30px;
+                }
+                .why-now-area {
+                    padding: 40px 30px;
+                }
+                .recap-wrapper h2 {
+                    font-size: 32px;
+                }
+                .card-title h4 {
+                    font-size: 22px;
+                }
+                .recap-wrapper {
+                    padding: 40px;
+                }
+                .join-today {
+                    padding-top: 20px;
+                }
+                .join-inner-card {
+                    gap: 30px;
+                    flex-direction: column;
+                }
+                .card-action-btns button {
+                    font-size: 20px;
+                }
+                .logo a img {
+                    max-width: 250px;
+                }
+                .footer-nav ul li a {
+                    font-size: 25px;
+                }
+                .copyright-text p {
+                    font-size: 26px;
+                }
+
+                .distraction-card {
+                    order: 2;
+                }
+
+                .distraction-card.connection-card {
+                    order: 1;
+                }
+
+                .real-skills-wrapper p {
+                    text-align: left !important;
+                    line-height: 130%;
+                }
+            }
+
+            /* Xtra Small Screen - Small Mobile  */
+
+            @media screen and (max-width: 575px) {
+                body {
+                    font-size: 23px;
+                }
+                .header-wrapper h2 {
+                    font-size: 32px;
+                }
+                .header-logo img {
+                    max-width: 170px;
+                }
+                .kids-talk-area {
+                    padding: 10px 10px;
+                }
+                .kids-talk-wrapper h4 {
+                    font-size: 32px;
+                    max-width: 100%;
+                }
+                .kids-talk-wrapper {
+                    gap: 25px;
+                    padding: 20px 20px;
+                }
+                .header-area {
+                    padding: 25px 20px;
+                }
+                /* kidschat card area  */
+                .kidschat-card-wrapper h2 {
+                    font-size: 32px;
+                    max-width: 650px;
+                    line-height: 109%;
+                }
+                .kidschat-card-area::before {
+                    width: 75%;
+                    height: 210px;
+                    right: -91px;
+                    top: 19%;
+                }
+                .kidschat-card-wrapper p {
+                    max-width: 650px;
+                    line-height: 130%;
+                }
+                .kidschat-card-wrapper {
+                    gap: 20px;
+                }
+                .kidchat-img img {
+                    height: 250px;
+                    object-fit: cover;
+                }
+                .kidschat-card-area {
+                    padding: 25px 20px;
+                }
+                /* what kidscard area  */
+                .what-kidschat-list {
+                    padding: 0;
+                }
+                .what-kidscaht-wrapper {
+                    gap: 25px;
+                }
+                .waht-kidschat-images {
+                    display: none;
+                }
+                .waht-kidschat-images-bottom {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .what-kidschat-area {
+                    padding: 25px 20px;
+                    overflow: hidden;
+                }
+                .waht-kidschat-images-bottom img {
+                    height: 210px;
+                    width: 451px;
+                    object-fit: cover;
+                    object-position: center;
+                    margin-top: -40px;
+                }
+                /* real skilss area  */
+                .real-skills-area {
+                    padding: 24px 10px;
+                }
+                .real-skills-wrapper h2 {
+                    font-size: 32px;
+                }
+                .real-skills-wrapper {
+                    gap: 15px;
+                    padding: 20px 20px;
+                }
+                .real-skills-wrapper ul {
+                    gap: 35px;
+                    margin-top: 15px;
+                }
+                /* theme area  */
+                .theme-area {
+                    padding: 30px 30px;
+                }
+                .theme-wrapper h2 {
+                    font-size: 32px;
+                }
+                .theme-wrapper {
+                    gap: 30px;
+                }
+                .theme-card-list {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 10px;
+                }
+                .theme-feautes-list li {
+                    font-size: 23px;
+                }
+                .theme-inner-wp {
+                    gap: 15px;
+                }
+                .single-theme {
+                    width: calc(50% - 6px);
+                    max-width: 144px;
+                }
+                .theme-feautes-list {
+                    padding: 7px;
+                }
+                /* real perent area  */
+                .real-perents-wrapper h4 {
+                    font-size: 32px;
+                    line-height: 109%;
+                }
+                .real-perents-wrapper h2 {
+                    font-size: 35px;
+                    line-height: 109%;
+                }
+                .prent-review-text p {
+                    font-size: 23px;
+                    line-height: 130%;
+                }
+                .prent-review-text h5 {
+                    font-size: 23px;
+                    line-height: 130%;
+                }
+                .perents-inner-card {
+                    gap: 80px;
+                }
+                .single-perent-say {
+                    padding-block: 20px;
+                }
+                .perent-profile img {
+                    width: 108px;
+                    height: 108px;
+                }
+                .perent-review-box {
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 15px;
+                    padding-right: 20px;
+                }
+                .perent-rating ul {
+                    justify-content: center;
+                    gap: 7px;
+                }
+                .prent-review-text {
+                    gap: 15px;
+                    padding: 0;
+                }
+                .real-perents-area {
+                    padding: 25px 20px;
+                }
+                .perent-rating ul li svg {
+                    width: 30px;
+                    height: 30px;
+                }
+                /* why now area  */
+                .why-now-wrapper h2 {
+                    font-size: 22px;
+                }
+                .why-now-wrapper {
+                    gap: 25px;
+                }
+                .why-now-area {
+                    padding: 25px 20px;
+                }
+                .our-promise-card {
+                    text-align: left;
+                    padding: 20px 20px;
+                    gap: 17px;
+                }
+                .our-promise-card p {
+                    width: 100%;
+                }
+                .our-promise-card h2 {
+                    text-align: left !important;
+                    width: 100%;
+                }
+                .why-now-inner {
+                    gap: 25px;
+                }
+                /* why now area  */
+                .recap-area {
+                    padding: 25px 15px;
+                }
+                .why-now-wrapper h2 {
+                    font-size: 32px;
+                }
+                .why-now-wrapper {
+                    gap: 25px;
+                }
+                .why-now-area {
+                    padding: 25px 20px;
+                }
+                .recap-wrapper h2 {
+                    font-size: 32px;
+                    line-height: 156%;
+                    text-align: left;
+                }
+                .card-title h4 {
+                    font-size: 30px;
+                }
+                .recap-wrapper {
+                    padding: 20px;
+                    gap: 30px;
+                    border-radius: 30px;
+                }
+                .join-today {
+                    padding-top: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                }
+                .join-inner-card {
+                    gap: 30px;
+                    flex-direction: column;
+                }
+                .card-action-btns button {
+                    font-size: 23px;
+                }
+                .distraction-content {
+                    gap: 15px;
+                }
+                .logo a img {
+                    max-width: 200px;
+                }
+                .footer-nav ul li a {
+                    font-size: 20px;
+                }
+                .copyright-text p {
+                    font-size: 22px;
+                }
+                .footer-nav {
+                    padding: 25px 0;
+                }
+
+                .our-promise-card h2 {
+                    font-size: 23px;
+                }
+
+                .title-text {
+                    font-size: 32px;
+                    max-width: 238px;
+                    margin-inline: auto;
+                    line-height: 109%;
+                }
+
+                .what-kidschat-block p {
+                    line-height: 130%;
+                }
+                .what-kidschat-list ul li {
+                    line-height: 130%;
+                }
+                .real-skills-wrapper p:last-child {
+                    padding-top: 15px;
+                }
+                .recap-wrapper ul li {
+                    line-height: 130%;
+                }
+                .join-images img {
+                    height: 210px;
+                    object-fit: cover;
+                }
+                .join-inner-card p {
+                    line-height: 130%;
+                }
+            }
+       </style>
+        
+    </head>
+    <body>
+        <!-- header area start hare  -->
+        <header class="header-area">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="header-logo">
+                        <img src="images/WAIT-Icon.png" alt="">
+                    </div>
+                    <h2>Before You Go...</h2>
+                </div>
+            </div>
+        </header>
+        <!-- header area end hare  -->
+        <!-- kids talk area start hare  -->
+        <section class="kids-talk-area">
+            <div class="container">
+                <div class="kids-talk-wrapper">
+                    <h4>Want Your Kids To Actually Talk To You?</h4>
+                    <div class="kids-block">
+                        <p>Like... really talk?</p>
+                        <p>Not the “Fine.”</p>
+                        <p>Not the “I dunno.”</p>
+                        <p>Not the “Can I go back to my iPad now?”</p>
+                    </div>
+                    <p class="text-center">We mean <strong>real, honest, giggly, goofy, deep, and eye-opening conversations</strong> that actually bring you closer. </p>
+                    <p class="text-center">If you’re nodding your head (or yelling “YES!” in your brain), then you need to check out...</p>
+                </div>
+            </div>
+        </section>
+        <!-- kids tak area end hare  -->
+        <!-- kidschat card area start hare  -->
+        <section class="kidschat-card-area">
+            <div class="container">
+                <div class="kidschat-card-wrapper">
+                    <h2>KitChat Cards – The Fun Way to Get Your Kids Talking</h2>
+                    <div class="kidchat-img">
+                        <img src="images/kidschat-card.png" alt="">
+                    </div>
+                    <p>Think of these like a magical deck of cards that turns dinner time, lazy weekends, or even driving time… <a href="#">into a memory-making machine.</a>
+                    </p>
+                    <div>
+                        <p>Because here’s the truth:</p>
+                        <p>Kids <span class="font-italic">want</span> to talk. </p>
+                    </div>
+                    <div>
+                        <p>They just need the <span class="font-italic">right</span> questions. </p>
+                        <p>And <strong>a reason to put down the tablet.</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- kidschat area end hare  -->
+        <!-- what kidschat area start hare  -->
+        <section class="what-kidschat-area">
+            <div class="container">
+                <div class="what-kidscaht-wrapper">
+                    <h2 class="title-text">What Are KitChat Cards?</h2>
+                    <div class="what-kidschat-block">
+                        <div class="what-kidschat-content">
+                            <p>They’re not flashcards. <br>They're not being tested... <br>They’re not “How was your day?” over and over again. </p>
+                            <p>These are conversation-sparking, belly-laughing, secret-sharing, bond-building questions that kids actually ask to play again.</p>
+                        </div>
+                        <div class="waht-kidschat-images">
+                            <img src="images/Cartas-preguntas.png" alt="">
+                        </div>
+                    </div>
+                    <div class="what-kidschat-list">
+                        <ul>
+                            <li>✅ 100+ screen-free, connection-packed prompts</li>
+                            <li>✅ Designed by child development pros + parenting experts</li>
+                            <li>✅ Compact enough to toss in your purse, glovebox, or backpack</li>
+                            <li>✅ Perfect for ages 5 to 13 (and surprisingly fun for grown-ups too)</li>
+                        </ul>
+                    </div>
+                    <!-- for mobile  -->
+                    <div class="waht-kidschat-images-bottom">
+                        <img src="images/Cartas-preguntas.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- what kidschat area end hare  -->
+        <!-- real skill area start hare  -->
+        <section class="real-skills-area">
+            <div class="container">
+                <div class="real-skills-wrapper">
+                    <h2>Real Conversations. Real Skills.</h2>
+                    <p class="text-center">KitChat Cards aren’t just fun. (But don’t worry, they’re really fun.) <br><br> They also help your child build:</p>
+                    <ul>
+                        <li>💡 Confidence in expressing themselves</li>
+                        <li>🎯 Better listening and thinking skills</li>
+                        <li>💬 Stronger vocabulary and communication</li>
+                        <li>💛 Emotional awareness and empathy</li>
+                        <li>💬 Public speaking skills (without even realizing it)</li>
+                    </ul>
+                    <p>So while they’re answering silly, deep, or thoughtful questions, they’re actually <strong>growing their</strong> brain and building life skills for the future. </p>
+                    <p>And they’ll think they’re just playing a game!</p>
+                </div>
+            </div>
+        </section>
+        <!-- real skils area end hare  -->
+        <!-- theme area start hare  -->
+        <section class="theme-area">
+            <div class="container">
+                <div class="theme-wrapper">
+                    <div class="theme-card-list">
+                        <div class="single-theme">
+                            <a href="#">
+                                <img src="images/fun-card.png" alt="">
+                            </a>
+                        </div>
+                        <div class="single-theme">
+                            <a href="#">
+                                <img src="images/Future-card.png" alt="">
+                            </a>
+                        </div>
+                        <div class="single-theme">
+                            <a href="#">
+                                <img src="images/Hard-card.png" alt="">
+                            </a>
+                        </div>
+                        <div class="single-theme">
+                            <a href="#">
+                                <img src="images/Home-card.png" alt="">
+                            </a>
+                        </div>
+                        <div class="single-theme">
+                            <a href="#">
+                                <img src="images/Money-card.png" alt="">
+                            </a>
+                        </div>
+                        <div class="single-theme">
+                            <a href="#">
+                                <img src="images/School-card.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="theme-inner-wp">
+                        <h2>Use Them Anywhere:</h2>
+                        <p>You don’t need to “schedule” anything fancy.</p>
+                        <p>KitChat Cards slide perfectly into the moments you already have:</p>
+                        <div class="theme-feautes-list">
+                            <ul>
+                                <li>🍽️ Dinner time</li>
+                                <li>🚙 Car rides</li>
+                                <li>🛏️ Bedtime wind-downs</li>
+                                <li>🌳 Picnics & park trips</li>
+                            </ul>
+                        </div>
+                        <ul class="theme-benefit text-center">
+                            <li>Just grab a card. </li>
+                            <li>Ask a question. </li>
+                            <li>Let the magic begin!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- theme area end hare  -->
+        <!-- real perents area start hare  -->
+        <section class="real-perents-area">
+            <div class="container">
+                <div class="real-perents-wrapper">
+                    <h4>Real Parents Are</h4>
+                    <h2>LOVING This:</h2>
+                    <div class="perents-inner-card">
+                        <div class="single-perent-say">
+                            <div class="perent-review-box">
+                                <div class="perent-profile">
+                                    <img src="images/perent-img-1.png" alt="">
+                                </div>
+                                <div class="prent-review-text">
+                                    <div class="perent-rating">
+                                        <ul>
+                                            <li>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                                                    <path d="M19.5488 1.80859C19.8484 0.887747 21.1516 0.887749 21.4512 1.80859L25.6904 14.8564H39.4092C40.3775 14.8567 40.7803 16.0956 39.9971 16.665L28.8984 24.7285L33.1377 37.7754C33.437 38.6967 32.3823 39.463 31.5986 38.8936L20.5 30.8301L9.40137 38.8936C8.61766 39.463 7.56295 38.6967 7.8623 37.7754L12.1016 24.7285L1.00293 16.665C0.219733 16.0956 0.62245 14.8567 1.59082 14.8564H15.3096L19.5488 1.80859Z" fill="#FFEA00" stroke="#BC0A22" />
+                                                </svg>
+                                            </li>
+                                            <li>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                                                    <path d="M19.5488 1.80859C19.8484 0.887747 21.1516 0.887749 21.4512 1.80859L25.6904 14.8564H39.4092C40.3775 14.8567 40.7803 16.0956 39.9971 16.665L28.8984 24.7285L33.1377 37.7754C33.437 38.6967 32.3823 39.463 31.5986 38.8936L20.5 30.8301L9.40137 38.8936C8.61766 39.463 7.56295 38.6967 7.8623 37.7754L12.1016 24.7285L1.00293 16.665C0.219733 16.0956 0.62245 14.8567 1.59082 14.8564H15.3096L19.5488 1.80859Z" fill="#FFEA00" stroke="#BC0A22" />
+                                                </svg>
+                                            </li>
+                                            <li>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                                                    <path d="M19.5488 1.80859C19.8484 0.887747 21.1516 0.887749 21.4512 1.80859L25.6904 14.8564H39.4092C40.3775 14.8567 40.7803 16.0956 39.9971 16.665L28.8984 24.7285L33.1377 37.7754C33.437 38.6967 32.3823 39.463 31.5986 38.8936L20.5 30.8301L9.40137 38.8936C8.61766 39.463 7.56295 38.6967 7.8623 37.7754L12.1016 24.7285L1.00293 16.665C0.219733 16.0956 0.62245 14.8567 1.59082 14.8564H15.3096L19.5488 1.80859Z" fill="#FFEA00" stroke="#BC0A22" />
+                                                </svg>
+                                            </li>
+                                            <li>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                                                    <path d="M19.5488 1.80859C19.8484 0.887747 21.1516 0.887749 21.4512 1.80859L25.6904 14.8564H39.4092C40.3775 14.8567 40.7803 16.0956 39.9971 16.665L28.8984 24.7285L33.1377 37.7754C33.437 38.6967 32.3823 39.463 31.5986 38.8936L20.5 30.8301L9.40137 38.8936C8.61766 39.463 7.56295 38.6967 7.8623 37.7754L12.1016 24.7285L1.00293 16.665C0.219733 16.0956 0.62245 14.8567 1.59082 14.8564H15.3096L19.5488 1.80859Z" fill="#FFEA00" stroke="#BC0A22" />
+                                                </svg>
+                                            </li>
+                                            <li>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                                                    <path d="M19.5488 1.80859C19.8484 0.887747 21.1516 0.887749 21.4512 1.80859L25.6904 14.8564H39.4092C40.3775 14.8567 40.7803 16.0956 39.9971 16.665L28.8984 24.7285L33.1377 37.7754C33.437 38.6967 32.3823 39.463 31.5986 38.8936L20.5 30.8301L9.40137 38.8936C8.61766 39.463 7.56295 38.6967 7.8623 37.7754L12.1016 24.7285L1.00293 16.665C0.219733 16.0956 0.62245 14.8567 1.59082 14.8564H15.3096L19.5488 1.80859Z" fill="#FFEA00" stroke="#BC0A22" />
+                                                </svg>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <p>“My 10-year-old walks in the door and asks, ‘Can we do the cards now?’ It’s been the best thing for our family dinner times. No more fighting over phones!”</p>
+                                    <h5>— Lynn</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-perent-say  perent-card-two">
+                            <div class="perent-review-box">
+                                <div class="perent-profile">
+                                    <img src="images/perent-img-2.png" alt="">
+                                </div>
+                                <div class="prent-review-text">
+                                    <div class="perent-rating">
+                                        <ul>
+                                            <li>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                                                    <path d="M19.5488 1.80859C19.8484 0.887747 21.1516 0.887749 21.4512 1.80859L25.6904 14.8564H39.4092C40.3775 14.8567 40.7803 16.0956 39.9971 16.665L28.8984 24.7285L33.1377 37.7754C33.437 38.6967 32.3823 39.463 31.5986 38.8936L20.5 30.8301L9.40137 38.8936C8.61766 39.463 7.56295 38.6967 7.8623 37.7754L12.1016 24.7285L1.00293 16.665C0.219733 16.0956 0.62245 14.8567 1.59082 14.8564H15.3096L19.5488 1.80859Z" fill="#FFEA00" stroke="#BC0A22" />
+                                                </svg>
+                                            </li>
+                                            <li>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                                                    <path d="M19.5488 1.80859C19.8484 0.887747 21.1516 0.887749 21.4512 1.80859L25.6904 14.8564H39.4092C40.3775 14.8567 40.7803 16.0956 39.9971 16.665L28.8984 24.7285L33.1377 37.7754C33.437 38.6967 32.3823 39.463 31.5986 38.8936L20.5 30.8301L9.40137 38.8936C8.61766 39.463 7.56295 38.6967 7.8623 37.7754L12.1016 24.7285L1.00293 16.665C0.219733 16.0956 0.62245 14.8567 1.59082 14.8564H15.3096L19.5488 1.80859Z" fill="#FFEA00" stroke="#BC0A22" />
+                                                </svg>
+                                            </li>
+                                            <li>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                                                    <path d="M19.5488 1.80859C19.8484 0.887747 21.1516 0.887749 21.4512 1.80859L25.6904 14.8564H39.4092C40.3775 14.8567 40.7803 16.0956 39.9971 16.665L28.8984 24.7285L33.1377 37.7754C33.437 38.6967 32.3823 39.463 31.5986 38.8936L20.5 30.8301L9.40137 38.8936C8.61766 39.463 7.56295 38.6967 7.8623 37.7754L12.1016 24.7285L1.00293 16.665C0.219733 16.0956 0.62245 14.8567 1.59082 14.8564H15.3096L19.5488 1.80859Z" fill="#FFEA00" stroke="#BC0A22" />
+                                                </svg>
+                                            </li>
+                                            <li>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                                                    <path d="M19.5488 1.80859C19.8484 0.887747 21.1516 0.887749 21.4512 1.80859L25.6904 14.8564H39.4092C40.3775 14.8567 40.7803 16.0956 39.9971 16.665L28.8984 24.7285L33.1377 37.7754C33.437 38.6967 32.3823 39.463 31.5986 38.8936L20.5 30.8301L9.40137 38.8936C8.61766 39.463 7.56295 38.6967 7.8623 37.7754L12.1016 24.7285L1.00293 16.665C0.219733 16.0956 0.62245 14.8567 1.59082 14.8564H15.3096L19.5488 1.80859Z" fill="#FFEA00" stroke="#BC0A22" />
+                                                </svg>
+                                            </li>
+                                            <li>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                                                    <path d="M19.5488 1.80859C19.8484 0.887747 21.1516 0.887749 21.4512 1.80859L25.6904 14.8564H39.4092C40.3775 14.8567 40.7803 16.0956 39.9971 16.665L28.8984 24.7285L33.1377 37.7754C33.437 38.6967 32.3823 39.463 31.5986 38.8936L20.5 30.8301L9.40137 38.8936C8.61766 39.463 7.56295 38.6967 7.8623 37.7754L12.1016 24.7285L1.00293 16.665C0.219733 16.0956 0.62245 14.8567 1.59082 14.8564H15.3096L19.5488 1.80859Z" fill="#FFEA00" stroke="#BC0A22" />
+                                                </svg>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <p>“We learned more about our son in one night than in the past 6 months. He actually WANTS to talk. These cards are brilliant.”</p>
+                                    <h5>— Marcus G.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-perent-say  perent-card-three">
+                            <div class="perent-review-box">
+                                <div class="perent-profile">
+                                    <img src="images/perent-img-3.png" alt="">
+                                </div>
+                                <div class="prent-review-text">
+                                    <div class="perent-rating">
+                                        <ul>
+                                            <li>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                                                    <path d="M19.5488 1.80859C19.8484 0.887747 21.1516 0.887749 21.4512 1.80859L25.6904 14.8564H39.4092C40.3775 14.8567 40.7803 16.0956 39.9971 16.665L28.8984 24.7285L33.1377 37.7754C33.437 38.6967 32.3823 39.463 31.5986 38.8936L20.5 30.8301L9.40137 38.8936C8.61766 39.463 7.56295 38.6967 7.8623 37.7754L12.1016 24.7285L1.00293 16.665C0.219733 16.0956 0.62245 14.8567 1.59082 14.8564H15.3096L19.5488 1.80859Z" fill="#FFEA00" stroke="#BC0A22" />
+                                                </svg>
+                                            </li>
+                                            <li>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                                                    <path d="M19.5488 1.80859C19.8484 0.887747 21.1516 0.887749 21.4512 1.80859L25.6904 14.8564H39.4092C40.3775 14.8567 40.7803 16.0956 39.9971 16.665L28.8984 24.7285L33.1377 37.7754C33.437 38.6967 32.3823 39.463 31.5986 38.8936L20.5 30.8301L9.40137 38.8936C8.61766 39.463 7.56295 38.6967 7.8623 37.7754L12.1016 24.7285L1.00293 16.665C0.219733 16.0956 0.62245 14.8567 1.59082 14.8564H15.3096L19.5488 1.80859Z" fill="#FFEA00" stroke="#BC0A22" />
+                                                </svg>
+                                            </li>
+                                            <li>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                                                    <path d="M19.5488 1.80859C19.8484 0.887747 21.1516 0.887749 21.4512 1.80859L25.6904 14.8564H39.4092C40.3775 14.8567 40.7803 16.0956 39.9971 16.665L28.8984 24.7285L33.1377 37.7754C33.437 38.6967 32.3823 39.463 31.5986 38.8936L20.5 30.8301L9.40137 38.8936C8.61766 39.463 7.56295 38.6967 7.8623 37.7754L12.1016 24.7285L1.00293 16.665C0.219733 16.0956 0.62245 14.8567 1.59082 14.8564H15.3096L19.5488 1.80859Z" fill="#FFEA00" stroke="#BC0A22" />
+                                                </svg>
+                                            </li>
+                                            <li>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                                                    <path d="M19.5488 1.80859C19.8484 0.887747 21.1516 0.887749 21.4512 1.80859L25.6904 14.8564H39.4092C40.3775 14.8567 40.7803 16.0956 39.9971 16.665L28.8984 24.7285L33.1377 37.7754C33.437 38.6967 32.3823 39.463 31.5986 38.8936L20.5 30.8301L9.40137 38.8936C8.61766 39.463 7.56295 38.6967 7.8623 37.7754L12.1016 24.7285L1.00293 16.665C0.219733 16.0956 0.62245 14.8567 1.59082 14.8564H15.3096L19.5488 1.80859Z" fill="#FFEA00" stroke="#BC0A22" />
+                                                </svg>
+                                            </li>
+                                            <li>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                                                    <path d="M19.5488 1.80859C19.8484 0.887747 21.1516 0.887749 21.4512 1.80859L25.6904 14.8564H39.4092C40.3775 14.8567 40.7803 16.0956 39.9971 16.665L28.8984 24.7285L33.1377 37.7754C33.437 38.6967 32.3823 39.463 31.5986 38.8936L20.5 30.8301L9.40137 38.8936C8.61766 39.463 7.56295 38.6967 7.8623 37.7754L12.1016 24.7285L1.00293 16.665C0.219733 16.0956 0.62245 14.8567 1.59082 14.8564H15.3096L19.5488 1.80859Z" fill="#FFEA00" stroke="#BC0A22" />
+                                                </svg>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <p>“I use them with my grandkids when they visit. We’ve laughed, cried, and had the best conversations. It’s brought us closer than I thought possible.”</p>
+                                    <h5>— Diane</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- real perent area end hare  -->
+        <!-- why now area start hare  -->
+        <section class="why-now-area">
+            <div class="container">
+                <div class="why-now-wrapper">
+                    <h2>Why Now?</h2>
+                    <div class="why-now-inner">
+                        <p>Let’s be honest...</p>
+                        <p>
+                            <strong>Time flies.</strong>
+                        </p>
+                        <p>
+                            <strong>Kids grow up.</strong>
+                        </p>
+                        <p>And it’s easy to miss the little moments that actually matter most.</p>
+                        <p>KitChat Cards help you <strong>capture those moments</strong>... without begging, bribing, or battling over screen time. </p>
+                        <p>And right now, while you’re already in connection-mode, there’s <strong>no better time to add this to your order.</strong>
+                        </p>
+                    </div>
+                    <p>Plus, when you grab your KitChat Cards today:</p>
+                    <ul>
+                        <li>✅ You’ll save time</li>
+                        <li>✅ You’ll save your sanity</li>
+                        <li>✅ And you’ll save your spot in your child’s heart</li>
+                    </ul>
+                    <div class="our-promise-card">
+                        <h2>Our Promise to You:</h2>
+                        <p>Try them for 30 days. </p>
+                        <p>If you don’t absolutely love them…</p>
+                        <p>If you don’t feel more connected, more curious, and a little more in love with your own kids... we’ll give you your money back.</p>
+                        <p class="font-italic">No questions. No guilt.</p>
+                        <p>But we think once you start… you won’t want to stop.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- real perent area end hare  -->
+        <!-- recap area start hare  -->
+        <section class="recap-area">
+            <div class="container">
+                <div class="recap-wrapper">
+                    <h2>So Let’s Recap...</h2>
+                    <p>When you add <strong>KitChat Cards</strong> to your order right now, you’ll get: </p>
+                    <ul>
+                        <li>✔️ 100+ expert-designed conversation starters</li>
+                        <li>✔️ Fun, easy, zero-prep family bonding</li>
+                        <li>✔️ Tools to help your child grow emotionally, mentally, and socially</li>
+                        <li>✔️ Laughter, surprises, and maybe even some happy tears</li>
+                        <li>✔️ A better, stronger relationship with your kid... starting TODAY</li>
+                    </ul>
+                    <p class="text-center">All for less than the price of a takeout dinner.</p>
+                    <p class="text-center">
+                        <strong>So go ahead, click the button below now...</strong>
+                    </p>
+                    <p class="text-center">Let’s turn small talk into big memories.</p>
+                    <p class="text-center font-italic">You’ll be glad you did.</p>
+                    <p class="text-center font-italic">Your child will be glad you did.</p>
+                    <p class="text-center">And the Future You... the one with a chatty, confident, deeply connected teenager—will <strong class="font-italic">definitely</strong> be glad you did. </p>
+                    <div class="join-today">
+                        <h2>Just <span>$29</span> Today! </h2>
+                        <div class="join-images">
+                            <img src="images/chat-black-card.png" alt="">
+                        </div>
+                        <div class="join-inner-card">
+                            <div class="distraction-card">
+                                <div class="card-title">
+                                    <h4>DISTRACTION</h4>
+                                </div>
+                                <div class="distraction-content">
+                                    <img src="images/distraction-img.png" alt="">
+                                    <p>No thanks. I'm okay sticking to our nighttime screen routine... even if it means missing out on better conversations and deeper connection.</p>
+                                    <div class="card-action-btns">
+                                        <button>NO THANKS</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="distraction-card connection-card">
+                                <div class="card-title">
+                                    <h4>CONNECTION</h4>
+                                </div>
+                                <div class="distraction-content">
+                                    <img src="images/connection-img.png" alt="">
+                                    <p>Yes! I want to strengthen my family's bond by encouraging meaningful conversations that don’t involve screens.</p>
+                                    <p>I believe my child deserves more than passive entertainment... they deserve real connection, emotional growth, and joyful memories with us around the table.</p>
+                                    <div class="card-action-btns">
+                                        <button>ADD KITCHAT CARDS FOR JUST $29!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer area start hare  -->
+        <footer class="footer-area">
+            <div class="container">
+                <div class="footer-wapper">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="images/footer-logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="footer-nav">
+                        <ul>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms of Service</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copyright-text">
+                        <p>Copyright © MindFinity LLC</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
